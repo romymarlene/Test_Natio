@@ -1,0 +1,27 @@
+CODEBUCH,,,,,
+"Im Codebuch definieren Sie, wie und nach welchen Kriterien erfasst werden.",,,,,
+Achtung: das Codebuch wird immer als eigene Datei in Github gesetzt. Beispiel siehe hier.,,,,,
+Wert,Kommentar,,,,
+edgelist,Grundregel: Die Edgelist darf pro Spalte immer nur einen Wert enthalten. Bis auf die ID idealerweise numerisch codiert (als Zahl).,,,,
+from,"definiert den Sender in gerichteten Netzwerken. Entspricht der Mannschaft (U) in der Nodelist. Keine Sonderzeichen, nur ein Wort",,,,
+to ,"definiert den Empfänger in ungerichteten Netzwerken. Entspricht der Mannschaft (U oder A) in der Nodelist. Keine Sonderzeichen, etc. ",,,,
+weight,"definiert die Zeit, die ein Spieler bei einem Verein verbracht hat. 1 Jahr entspricht dem weight 2, 2 Jahre entspricht dem weight 4, usw. ",,,,
+,,,,,
+,,,,,
+nodelist,Grundregel: die IDs der Nodelist müssen mit den IDs der Edgelist komplett übereinstimmen. Ausprägungen der Attribute in der Regel numerisch definieren.,,,,
+Name,"Name oder Bezeichnung des Knotens.  = Name des Spielers oder der Manschaft, eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  ",,,,
+Geburtsjahr,definiert Geburtsjahr des Spielers,,,,
+Position,definiert die Position des Spielers ,,,,
+,TW = Torwart,AV = Außenverteidiger,DM = Defensives Mittelfeld,RA = Rechtsaußen,MS = Mittelstürmer
+,,IV = Innenverteidiger,ZM = Zentrales Mittelfeld,,
+,,RV = Rechter Verteidiger,LM = Linkes Mittelfeld,,
+,,,OM = Offensives Mittelfeld,,
+,,,,,
+,,,,,
+,,LIV = Linker Innenverteidiger,RM = Rechtes Mittelfeld,LA = Linksaußen,LS = Linker Stürmer
+,,RIV = Rechter Innenverteidiger,ZDM = Zentrales defensives Mittelfeld,LF = Linker Flügel,RS = Rechter Stürmer
+,,LV = Linker Verteidiger,ZOM = Zentrales offensives Mittelfeld,RF = Rechter Flügel,ST = Stürmer
+,,LAV = Linker Außenverteidiger,,,
+,,RAV = Rechter Außenverteidiger,,,
+type,definiert die Art des Knoten. 1= Spieler 2=Mannschaft,,,,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus.",,,,
